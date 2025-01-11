@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="BaiTap Buoi 3">
+    <meta name="description" content="BaiTap Buoi 3">
+    <title>Giao diện với viền trên màu đen</title>
+    <style>
+        .menuText{
+            background-color: black;
+            height:20px;
+            color:white;
+            font-size: 15px;
+            padding: 3px;
+            margin: 10px 10px 10px 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div style="display: flex;flex-direction: row;justify-content: left;
+   ;background-color: black;margin-top:30px; ">
+    <div class="menuText">News</div>
+    <div class="menuText">Category</div>
+    <div class="menuText">Music</div>
+    <div class="menuText">Cine</div>
+</div>
+
+<h1>BaiTap Buoi 3</h1>
+<div>Day la bai tap 8 buoi 3</div>
+</body>
+</html>
